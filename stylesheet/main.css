@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     background-color: #20222b;
 }
+
 #logo {
     float: left;
     color: #1e1e1e;
@@ -18,7 +19,7 @@ body {
     font-family: DM Sans, sans-serif;
 }
 
-#logo-img{
+#logo-img {
     width: 360px;
     height: 110px;
     margin: 0;
@@ -55,3 +56,117 @@ body {
     right: 0;
     top: 38px;
 }
+
+
+/* First section of the page */
+.section {
+    background-color: #787a83;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#section1 {
+    background-color: #53555d;
+    height: 559px;
+    color: #d0d2da;
+}
+
+.section-left {
+    float: left;
+    width: 60%;
+    text-align: justify;
+    color: #d0d2da;
+}
+
+.section-left p {
+    width: 80%;
+    margin-top: 32px;
+    margin-left: 116px;
+    align-content: center;
+    line-height: 2.5;
+    letter-spacing: 2px;
+
+    font-size: 18px;
+    font-family: DM Sans, sans-serif;
+
+}
+
+h1 {
+    width: 80%;
+    margin: 96px 40px 0 116px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Tilt Warp, sans-serif;
+
+
+}
+
+.section-right {
+    float: right;
+    width: 40%;
+    text-align: center;
+    align-content: center;
+}
+
+.section-right img {
+    width: 350px;
+    height: auto;
+    padding: 80px 0;
+    border-radius: 30% 70% 70% 30% / 64% 49% 51% 36%
+}
+
+.section-left2 img {
+    width: 500px;
+    height: auto;
+    padding: 80px 0;
+    margin: auto;
+    border-radius: 30% 70% 70% 30% / 64% 49% 51% 36%
+}
+
+#section2 {
+    background-color: #f3f0ee;
+    height: 800px;
+    color: #1e1e1e;
+}
+
+.section-left2 {
+    float: left;
+    width: 40%;
+    text-align: center;
+    align-content: center;
+}
+
+
+.section-right2 {
+    float: right;
+    width: 60%;
+    text-align: center;
+    align-content: center;
+    color: #1e1e1e;
+}
+
+
+.section-right2 img {
+    width: 350px;
+    height: auto;
+    margin: auto
+}
+
+.section-right2 p {
+    width: 80%;
+    margin-top: 32px;
+    margin-left: 116px;
+    align-content: center;
+    line-height: 2.5;
+    letter-spacing: 2px;
+
+    font-size: 18px;
+    font-family: DM Sans, sans-serif;
+
+}
+
+
+
